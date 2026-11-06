@@ -1,4 +1,4 @@
-# 🌽 Análise de Adubação
+# Análise de Adubação
 
 Análise exploratória de dados agrícolas que cruza **química do solo**, **qualidade da aplicação de fertilizantes/corretivos**, **alarmes de máquinas** e **rotação do motor**. O objetivo é entender o que pode estar limitando a produtividade do milho.
 
@@ -6,14 +6,14 @@ Projeto desenvolvido no contexto da **Fábrica de Projetos**. A apresentação c
 
 ---
 
-## 📂 Estrutura do repositório
+## Estrutura do repositório
 
 | Arquivo | Descrição |
 |---|---|
 | `análise_de_adubação.py` | Script principal com toda a análise (exportado do Google Colab) |
 | `Apresentação - Fábrica de Projetos (1).pdf` | Slides com os resultados |
 
-> ⚠️ Os datasets `.csv` e os mapas gerados **não estão no repositório** por conterem dados confidenciais da empresa.
+> Os datasets `.csv` e os mapas gerados **não estão no repositório** por conterem dados confidenciais da empresa.
 
 ### Datasets esperados
 
@@ -26,7 +26,7 @@ Para rodar o script, coloque estes arquivos na raiz do projeto:
 
 ---
 
-## 🔍 Análises realizadas
+## Análises realizadas
 
 ### 1. Solo
 - Textura (argila, areia, silte) comparada com valores de referência.
@@ -46,10 +46,10 @@ Para rodar o script, coloque estes arquivos na raiz do projeto:
 
   | Classe | Eficiência |
   |---|---|
-  | 🔴 Muito baixa | < 80% |
-  | 🟠 Baixa | 80–95% |
-  | 🟢 Adequada | 95–105% |
-  | 🔵 Excesso | > 105% |
+  | Muito baixa | < 80% |
+  | Baixa | 80–95% |
+  | Adequada | 95–105% |
+  | Excesso | > 105% |
 
 - Identificação de déficits maiores que **1 t/ha**.
 
@@ -59,7 +59,7 @@ Para rodar o script, coloque estes arquivos na raiz do projeto:
 
 ---
 
-## 🗺️ Mapas interativos
+## Mapas interativos
 
 Ao executar, o script gera três mapas no navegador (arquivos `.html`):
 
@@ -69,17 +69,17 @@ Ao executar, o script gera três mapas no navegador (arquivos `.html`):
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn geopandas shapely folium
 python análise_de_adubação.py
 ```
 
-> 💡 O script foi gerado a partir de um notebook do Colab e usa `display()`. Para rodar como script puro, prefira executá-lo em um Jupyter/Colab ou troque `display()` por `print()`.
+> O script foi gerado a partir de um notebook do Colab e usa `display()`. Para rodar como script puro, prefira executá-lo em um Jupyter/Colab ou troque `display()` por `print()`.
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 Python · Pandas · NumPy · Matplotlib · Seaborn · GeoPandas · Shapely · Folium
