@@ -15,9 +15,7 @@ Projeto desenvolvido no contexto da **Fábrica de Projetos**. A apresentação c
 
 > Os datasets `.csv` e os mapas gerados **não estão no repositório** por conterem dados confidenciais da empresa.
 
-### Datasets esperados
-
-Para rodar o script, coloque estes arquivos na raiz do projeto:
+### Datasets usados
 
 - `soil_analysis(in).csv`: análise de solo nas camadas 0–20 cm e 20–40 cm
 - `LAYER_MAP_ALARM(in).csv`: alarmes da frota, com geolocalização
@@ -66,17 +64,6 @@ Ao executar, o script gera três mapas no navegador (arquivos `.html`):
 - `mapa_eficiencia.html`: pontos coloridos pela eficiência da aplicação
 - `mapa_poligonos_eficiencia.html`: polígonos por eficiência, com dose planejada/aplicada
 - `mapa_heatmap_alarmes.html`: mapa de calor dos alarmes das máquinas
-
----
-
-## Como executar
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn geopandas shapely folium
-python análise_de_adubação.py
-```
-
-> O script foi gerado a partir de um notebook do Colab e usa `display()`. Para rodar como script puro, prefira executá-lo em um Jupyter/Colab ou troque `display()` por `print()`.
 
 ---
 
