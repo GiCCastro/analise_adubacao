@@ -1,5 +1,7 @@
 # Análise de Adubação
 
+Projeto desenvolvido em 2026.1, publicado em novembro.
+
 Análise exploratória de dados agrícolas que cruza **química do solo**, **qualidade da aplicação de fertilizantes/corretivos**, **alarmes de máquinas** e **rotação do motor**. O objetivo é entender o que pode estar limitando a produtividade do milho.
 
 Projeto desenvolvido no contexto da **Fábrica de Projetos**. A apresentação completa está em [`Apresentação - Fábrica de Projetos (1).pdf`](./Apresentação%20-%20Fábrica%20de%20Projetos%20(1).pdf).
