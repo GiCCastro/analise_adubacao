@@ -11,12 +11,9 @@ Projeto desenvolvido no contexto da **Fábrica de Projetos**. A apresentação c
 | Arquivo | Descrição |
 |---|---|
 | `análise_de_adubação.py` | Script principal com toda a análise (exportado do Google Colab) |
-| `mapa_eficiencia.html` | Mapa de pontos com a eficiência da aplicação |
-| `mapa_poligonos_eficiencia.html` | Mapa de polígonos coloridos por eficiência, com popup de dose planejada/aplicada |
-| `mapa_heatmap_alarmes.html` | Mapa de calor da concentração de alarmes das máquinas |
 | `Apresentação - Fábrica de Projetos (1).pdf` | Slides com os resultados |
 
-> ⚠️ Os datasets `.csv` **não estão no repositório**: são grandes (um deles passa de 100 MB) e estão no `.gitignore`.
+> ⚠️ Os datasets `.csv` e os mapas gerados **não estão no repositório** por conterem dados confidenciais da empresa.
 
 ### Datasets esperados
 
@@ -64,7 +61,11 @@ Para rodar o script, coloque estes arquivos na raiz do projeto:
 
 ## 🗺️ Mapas interativos
 
-Os arquivos `.html` abrem direto no navegador. Como são grandes, baixe-os em vez de tentar visualizar pelo GitHub.
+Ao executar, o script gera três mapas no navegador (arquivos `.html`):
+
+- `mapa_eficiencia.html`: pontos coloridos pela eficiência da aplicação
+- `mapa_poligonos_eficiencia.html`: polígonos por eficiência, com dose planejada/aplicada
+- `mapa_heatmap_alarmes.html`: mapa de calor dos alarmes das máquinas
 
 ---
 
